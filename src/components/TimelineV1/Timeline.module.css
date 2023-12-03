@@ -1,6 +1,9 @@
 .timeline {
   margin: 20px;
   margin-bottom: 60px;
+  padding: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 .timeline .timeline-months {
   display: flex;
@@ -52,9 +55,16 @@
   width: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin: 2px;
-  border-radius: 2px;
   background-color: rgba(0, 0, 0, 0.05);
 }
 .timeline-body .timeline-cells-cell:hover {
   border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.timeline-tooltip-content {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
