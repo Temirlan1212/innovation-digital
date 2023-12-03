@@ -24,8 +24,8 @@
   font-size: 14px;
   font-family: sans-serif;
   line-height: 1;
-  z-index: 1000;
-  width: auto;
+  z-index: 100;
+  white-space: nowrap;
 }
 
 /* CSS border triangles */
